@@ -11,3 +11,12 @@ public class DemoApplication {
 	}
 
 }
+@RestController
+	class HelloWOrldController{
+		@GetMapping("/")
+		public string sayHello(){
+			return "HELLO, world";
+		}
+	}
+				
+				
